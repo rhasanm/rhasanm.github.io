@@ -45,7 +45,7 @@ useBootstrapCDN = false
   subtitle = "I build things for the web"
   content = "A passionate web app developer. I tend to make use of modern web technologies to build websites that looks great, feels fantastic, and functions correctly."
   # image = "/images/hero.svg"
-  image = "/images/r_hasan.jpeg"
+  image = "/images/r_hasan.jpg"
 
     [params.hero.button]
     enable = true
