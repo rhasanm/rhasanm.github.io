@@ -11,6 +11,11 @@ Paginate = 3
 disqusShortname = "gurusabarish"
 googleAnalytics = "G-DWJJVE27WD"
 
+[params.navbar]
+  # brandLogo="//:0"
+  # brandLogo="/images/r_hasan.jpg"
+  # brandLogo = "<svg width="100" height="100"><circle cx="50" cy="50" r="40" stroke="green" stroke-width="4" fill="yellow" />Sorry, your browser does not support inline SVG.</svg>"
+
 [markup.goldmark.renderer]
 unsafe = true
 
@@ -68,7 +73,7 @@ url = "https://example.com"
   enable = true
   title = "About Me"
   # image = "/images/me.png"
-  image = "/images/r_hasan.jpeg"
+  image = "/images/r_hasan3.jpeg"
   content = """
 I am a software developer with a passion for web development. I have a background in computer science and mathematics, and I have a strong interest in the intersection of technology and art. I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA. 
 
@@ -211,7 +216,7 @@ Extracurricular Activities
       url = "https://example.com"
 
   [params.achievements]
-  enable = true
+  enable = false
 
     [[params.achievements.items]]
     title = "Google kickstart runner"
@@ -237,7 +242,7 @@ Extracurricular Activities
     url = "https://example.com"
 
   [params.projects]
-  enable = true
+  enable = false
 
     [[params.projects.items]]
     title = "Hugo Profile"
@@ -293,9 +298,12 @@ Extracurricular Activities
   btnName = "Mail me"
 
 [params.footer.socialNetworks]
-github = "https://github.com"
-linkedin = "https://linkedin.com"
-twitter = "https://twitter.com"
-instagram = "https://instagram.com"
-facebook = "https://facebook.com"
+github = "https://github.com/Sohando"
+# linkedin = "https://linkedin.com"
+# twitter = "https://twitter.com"
+# instagram = "https://instagram.com"
+facebook = "https://facebook.com/sohando.aber"
 
+
+[params.footer]
+  recentPosts = false
